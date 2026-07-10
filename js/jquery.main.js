@@ -462,6 +462,7 @@ $(document).ready(function() {
 
 
 	initProgressBar();
+	initCounterUp();
 	// Progress Bar init
 	function initProgressBar() {
 		if( jQuery(".progress-bar").length != '' ){
@@ -477,6 +478,16 @@ $(document).ready(function() {
 					});
 				},
 				offset: '80%'
+			});
+		}
+	}
+
+	// Counter Up init
+	function initCounterUp() {
+		if (jQuery(".counter").length) {
+			jQuery(".counter").counterUp({
+				delay: 10,
+				time: 1500
 			});
 		}
 	}

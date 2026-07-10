@@ -217,8 +217,11 @@
 	.blog-col .blog-detail .blog-link{font-size: 12px;}
 	.blog-sec .heading2{margin:0 0 40px;}
 	.blog-col:nth-child(1){margin: 0 0 30px;}
-	.footer-sec{padding: 50px 0;}
-	.footer-sec .f-nav{margin: -5px 0 20px;}
+	.footer-sec{padding: 50px 0 0;}
+	.footer-main{padding-bottom: 30px;}
+	.footer-col{margin-bottom: 28px;}
+	.footer-map iframe{height: 180px;}
+	.footer-social{margin: 0 0 10px;}
 	.pricing-sec .price-blog{margin: 0 0 20px;}
 	.heading2{font-size: 32px;}
 	.promo-box.pr-font h5{font-size: 15px;}
@@ -356,7 +359,8 @@
 	.blog-col{margin: 0 0 20px;}
 	.blog-col .blog-detail p{margin: 0 0 10px;line-height: 25px;}
 	.footer-sec .contact-list{float: none;margin:0 0 20px}
-	.footer-sec .social-icon{margin: 0 0 20px;}
+	.footer-bottom{padding: 20px 0;}
+	.footer-title{font-size: 16px;margin-bottom: 18px;}
 	.portfolio-sec .portfolio-slider .portfolio-detail{bottom: 20px;left: 18px;}
 	.portfolio-sec .portfolio-slider .heading3{font-size: 16px;line-height: 25px;margin: 0 0 0;}
 	.portfolio-sec .project-wrap{line-height: 16px;}
@@ -389,7 +393,20 @@
 	.intro-sec p {margin: 0 0 20px;}
 	.banner-sec .breadcrumb li{font-size: 13px;margin: 0 0 0;}
 	.contact-sec .contact-heading{font-size: 35px;}
+	.contact-sec .contact-holder{grid-template-columns: 1fr;}
+	.contact-sec .enquiry-card{padding: 24px 20px;}
 	.contact-sec .contact-blog{padding: 40px 10px 25px}
+	.about-page-sec{padding: 50px 0;}
+	.about-page-sec .about-content{padding: 30px 0 0;}
+	.about-page-sec .about-content .heading2{font-size: 28px;line-height: 34px;}
+	.stats-sec{padding: 30px 0;}
+	.stats-sec .stat-number{font-size: 26px;}
+	.stats-sec .stat-unit{font-size: 18px;}
+	.stats-sec .stat-icon{width: 42px;height: 42px;font-size: 16px;margin-bottom: 8px;}
+	.stats-sec .stat-item{padding: 8px 6px;}
+	.service-detail-content{padding: 40px 24px;}
+	.service-detail-content .heading2{font-size: 26px;line-height: 32px;}
+	.service-detail-image img{min-height: 260px;}
 	.about-sec .about-blog{margin: -50px 0 0;padding: 40px 15px 46px;}
 	.blog-form .form-group{margin: 0;}
 	.about-sec .btn-secondary{top: 33%;left: 39%;}
